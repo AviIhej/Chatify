@@ -3,27 +3,30 @@
 }
 
 .userListWrapper{
+    background-color: #2A2845;
+    color: #fff;
     display: flex;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     flex: 1;
-    color: #FFF;
     order: 1;
-    background-color: #2A2845;
     padding: 20px 0px 40px 30px;
     border-right: 1px solid #222;
+    /* height: 900px; */
 }
 
 .feedWrapper{
+    background:  url('http://2.bp.blogspot.com/-yon26vbAYNU/UQfF_Opq51I/AAAAAAAAfDQ/QxAKa--zGQs/s1600/mountains-at-night-209794.jpg');
+    /* height: 900px; */
     font-family: "Open Sans", sans-serif;
     font-size: 1.2em;
     flex: 5;
     order: 2;
     overflow-y: scroll;
     padding: 20px 0px 0px 24px;
-    background: linear-gradient(180deg, rgba(100,300,255,0.6), rgba(100,300,255,0.9)),
-    url('../../assets/img/palmtree-sunset.jpg') center center no-repeat;;
-    /* url(http://2.bp.blogspot.com/-yon26vbAYNU/UQfF_Opq51I/AAAAAAAAfDQ/QxAKa--zGQs/s1600/mountains-at-night-209794.jpg) center center no-repeat;; */
+    
+    
+    
 }
 
 .chatFormWrapper{
@@ -31,6 +34,7 @@
     height: 50px;
     background-color: #eee;
     z-index: 3;
+
 }
 
 #scroll-style::-webkit-scrollbar-track{
